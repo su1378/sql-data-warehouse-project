@@ -6,15 +6,19 @@ This project was completed during my earlier practical learning in SQL, Data War
 📌 Project Overview
 	
 Domain	Sales & Customer Analytics
-Database	Microsoft SQL Server
-Architecture	Medallion Architecture
-Data Sources	ERP & CRM
+Database
+Microsoft SQL Server
+Architecture	
+Medallion Architecture
+Data Sources	
+ERP & CRM
 Data Format	CSV
-Data Model	Star Schema
+Data Model	
+Star Schema
 Layers	Bronze → Silver → Gold
 Focus	Data Engineering & Analytics
-🏗️ Architecture
 
+🏗️ Architecture
 Bronze → Silver → Gold
 
 🥉 Bronze — Raw Data
@@ -27,7 +31,6 @@ Data cleansing, standardization, validation, and transformation.
 Analytical data modeled using fact and dimension tables in a star schema.
 
 Data Flow:
-
 ERP / CRM CSV Files → Bronze → Silver → Gold → Analytics
 
 🔧 What I Worked On
@@ -63,23 +66,31 @@ Data Warehousing · Star Schema · Fact & Dimension Tables · Medallion Architec
 Tools
 Git · GitHub · Draw.io
 
-📂 Repository Structure
+## 📂 Repository Structure
 data-warehouse-project/
 │
-├── datasets/                 # ERP & CRM source data
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                     # Documentation & data models
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file showing different ETL techniques and methods
+│   ├── data_architecture.drawio        # Draw.io file showing the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/
-│   ├── bronze/               # Data ingestion
-│   ├── silver/               # Data cleansing & transformation
-│   └── gold/                 # Analytical data models
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/                    # Data quality checks
+├── tests/                              # Test scripts and quality files
 │
-├── README.md
-├── LICENSE
-└── requirements.txt
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+
 
 📚 Documentation
 Data Catalog
