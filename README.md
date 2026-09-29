@@ -48,6 +48,7 @@ Created documentation for data architecture and data models
 Applied data validation and quality checks
 
 📊 Analytics
+
 The Gold layer enables analysis of:
 Customer Behavior
 Product Performance
@@ -56,6 +57,7 @@ Revenue & Sales Metrics
 Customer & Product KPIs
 
 🛠️ Tech Stack
+
 Database & Development
 SQL · T-SQL · Microsoft SQL Server · SSMS
 Data Engineering
@@ -64,6 +66,7 @@ Data Modeling
 Data Warehousing · Star Schema · Fact & Dimension Tables · Medallion Architecture
 
 Tools
+
 Git · GitHub · Draw.io
 
 ## 📂 Repository Structure
@@ -115,6 +118,7 @@ Areas of Interest
 Data Analytics · SQL · Data Engineering · Data Warehousing · Business Intelligence · ETL · Data Modeling · KPI Analysis · Logistics & Supply Chain Analytics
 
 ⭐ Credits
+
 This project was completed as part of my learning journey, using the educational materials and project guidance provided by Baraa Khatib Salkini (Data With Baraa).
 The original project and learning resources are available here:
 Data With Baraa – SQL Data Warehouse Project
