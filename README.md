@@ -96,6 +96,7 @@ data-warehouse-project/
 
 
 📚 Documentation
+
 Data Catalog
 Data Requirements
 Naming Conventions
@@ -115,7 +116,9 @@ I have expanded my technical skill set into Data Analytics and Data Engineering,
 I am especially interested in combining my logistics and transportation domain knowledge with data technologies to transform operational data into meaningful insights and support data-driven decision-making.
 
 Areas of Interest
+
 Data Analytics · SQL · Data Engineering · Data Warehousing · Business Intelligence · ETL · Data Modeling · KPI Analysis · Logistics & Supply Chain Analytics
+
 
 ⭐ Credits
 
